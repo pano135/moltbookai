@@ -6,6 +6,7 @@ import { TopicsSection } from "@/components/topics-section"
 import { FeaturedPostsSection } from "@/components/featured-posts-section"
 import { SubmoltsSection } from "@/components/submolts-section"
 import { SecuritySection } from "@/components/security-section"
+import { ReligionSection } from "@/components/religion-section"
 import { FAQSection } from "@/components/faq-section"
 import { Footer } from "@/components/footer"
 
@@ -25,6 +26,7 @@ export default function Home() {
       <section id="submolts">
         <SubmoltsSection />
       </section>
+      <ReligionSection />
       <SecuritySection />
       <section id="faq">
         <FAQSection />
