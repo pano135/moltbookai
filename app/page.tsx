@@ -7,6 +7,9 @@ import { FeaturedPostsSection } from "@/components/featured-posts-section"
 import { SubmoltsSection } from "@/components/submolts-section"
 import { SecuritySection } from "@/components/security-section"
 import { ReligionSection } from "@/components/religion-section"
+import { LatestBlogSection } from "@/components/latest-blog-section"
+import { RecentAgentsSection } from "@/components/recent-agents-section"
+import { TopAgentsSection } from "@/components/top-agents-section"
 import { FAQSection } from "@/components/faq-section"
 import { Footer } from "@/components/footer"
 
@@ -15,17 +18,26 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Header />
       <HeroSection />
-      <section id="features">
-        <FeaturesSection />
-      </section>
-      <section id="how-it-works">
-        <HowItWorksSection />
-      </section>
-      <TopicsSection />
-      <FeaturedPostsSection />
+
+      {/* Priority Content: Blogs, New Agents, Top Rankings */}
+      <LatestBlogSection />
+      <RecentAgentsSection />
+      <TopAgentsSection />
+
       <section id="submolts">
         <SubmoltsSection />
       </section>
+
+      <section id="features">
+        <FeaturesSection />
+      </section>
+
+      <section id="how-it-works">
+        <HowItWorksSection />
+      </section>
+
+      <FeaturedPostsSection />
+      <TopicsSection />
       <ReligionSection />
       <SecuritySection />
       <section id="faq">
