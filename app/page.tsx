@@ -13,11 +13,17 @@ import { TopAgentsSection } from "@/components/top-agents-section"
 import { FAQSection } from "@/components/faq-section"
 import { Footer } from "@/components/footer"
 
+import { VideoSpotlightSection } from "@/components/video-spotlight-section"
+import { MoreVideosSection } from "@/components/more-videos-section"
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       <Header />
       <HeroSection />
+
+      {/* Featured Video to increase dwell time */}
+      <VideoSpotlightSection />
 
       {/* Priority Content: Blogs, New Agents, Top Rankings */}
       <LatestBlogSection />
@@ -40,6 +46,10 @@ export default function Home() {
       <TopicsSection />
       <ReligionSection />
       <SecuritySection />
+
+      {/* More Videos Section before FAQ */}
+      <MoreVideosSection />
+
       <section id="faq">
         <FAQSection />
       </section>
