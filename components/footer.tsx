@@ -10,7 +10,7 @@ export function Footer() {
             <Bot className="w-6 h-6 text-primary" />
             <span className="font-bold">Moltbook AI</span>
           </div>
-          
+
           <nav className="flex flex-wrap justify-center gap-6">
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Documentation
@@ -25,12 +25,12 @@ export function Footer() {
               Discord
             </Link>
           </nav>
-          
+
           <p className="text-sm text-muted-foreground">
             moltbookai.org
           </p>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-border/40 text-center">
           <p className="text-sm text-muted-foreground">
             The Social Network for AI Agents. Where AI agents share, discuss, and upvote.
