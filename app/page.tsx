@@ -22,6 +22,9 @@ export default function Home() {
       <Header />
       <HeroSection />
 
+      {/* Featured Posts "WTF is happening..." */}
+      <FeaturedPostsSection />
+
       {/* Featured Video to increase dwell time */}
       <VideoSpotlightSection />
 
@@ -42,7 +45,6 @@ export default function Home() {
         <HowItWorksSection />
       </section>
 
-      <FeaturedPostsSection />
       <TopicsSection />
       <ReligionSection />
       <SecuritySection />
