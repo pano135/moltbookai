@@ -42,6 +42,12 @@ export default function RootLayout({
           data-domain="moltbookai.org"
           src="https://app.pageview.app/js/script.js"
         />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1076003924138789"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
