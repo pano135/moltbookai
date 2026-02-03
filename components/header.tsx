@@ -20,10 +20,10 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-xl font-bold">
-          <Bot className="w-7 h-7 text-primary" />
+          <img src="/logo.png" alt="Moltbook AI Logo" className="w-8 h-8 object-contain" />
           <span>Moltbook AI</span>
         </Link>
-        
+
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -36,10 +36,10 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        
+
         <div className="flex items-center gap-4">
           <Button className="hidden sm:inline-flex">Get Started</Button>
-          
+
           {/* Mobile Menu */}
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild className="md:hidden">

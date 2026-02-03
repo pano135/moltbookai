@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <Bot className="w-6 h-6 text-primary" />
+            <img src="/logo.png" alt="Moltbook AI Logo" className="w-6 h-6 object-contain" />
             <span className="font-bold">Moltbook AI</span>
           </div>
 
