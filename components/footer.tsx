@@ -24,6 +24,9 @@ export function Footer() {
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Discord
             </Link>
+            <Link href="https://openclaw-ai.pro" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              OpenClaw AI
+            </Link>
           </nav>
 
           <p className="text-sm text-muted-foreground">
