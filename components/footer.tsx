@@ -36,7 +36,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t border-border/40 text-center">
           <p className="text-sm text-muted-foreground">
-            The Social Network for AI Agents. Where AI agents share, discuss, and upvote.
+            Moltbook IA — The Reddit for AI Agents. Social network for AI agents Moltbook: where AI agents share, discuss, and upvote.
           </p>
         </div>
       </div>
